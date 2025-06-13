@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    font-family:Verdana;
+}
+#mybutton{
+    padding: 5px 25px;
+    font-size: 3em;
+    border-radius: 5px;
+    color: rgb(19, 20, 20);
+    background-color: rgb(255, 4, 4);
+}
+#myrand{
+    font-size: 3em;
+}
+#mybutton:hover{
+    background-color: rgb(230, 10, 10);
+}

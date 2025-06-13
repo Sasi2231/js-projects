@@ -1,0 +1,15 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+#mybutton{
+    padding: 5px 25px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 1em;
+    background-color: rgb(253, 58, 58);
+    color:black;
+}
+#mybutton:hover{
+    background-color: rgb(219, 51, 51);
+}
