@@ -1,17 +1,33 @@
-body{
+#container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-family:Verdana;
+    margin: auto;
+    max-width: auto;
+    font-size: 1.5em;
+    padding: 10px;
 }
-#mybutton{
-    padding: 5px 25px;
-    font-size: 3em;
-    border-radius: 5px;
-    color: rgb(19, 20, 20);
-    background-color: rgb(255, 4, 4);
+label{
+    font-size: 1em;
+    margin-bottom: 20px;
 }
-#myrand{
-    font-size: 3em;
+#numofdice{
+    text-align: center;
+    height: 15px;
+    width: 50px;
+    font-size: 0.5em;
 }
-#mybutton:hover{
-    background-color: rgb(230, 10, 10);
+button{
+    background-color: black;
+    color: azure;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: azure;
+    color: black;
+}
+button:active{
+    background-color: black;
+    color: azure;
 }
