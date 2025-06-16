@@ -4,29 +4,28 @@ const num = Math.floor(Math.random() * (maxim - minim)+1)+minim
 let running = true;
 let attempts = 0;
 let guess ;  
+let result ;
+function strguess(){
  while(running){
-    guess = window.prompt(`guess the number between ${minim} and ${maxim}`)
+    let guess = document.getElementById("myGuess").Value
     guess = Number(guess)
-    if(isNaN(guess)){
-        window.alert('you dumb*ss enter the number')
-
-    }
-    else if(guess < minim || guess > maxim){
-        window.alert(`I said number is in between ${minim} and ${maxim}`)
+    if(guess < minim || guess > maxim){
+        result.textContent = `enter between &{maxim} and &{minim}`
     }
     else{
         attempts++;
         if(guess > num){
-            window.alert('your guess is too high!')
+            result.textContent = 'your guess is too high!'
 
         }
         else if(guess < num){
-            window.alert('your guess is too low!')
+            result.textContent = 'your guess is too low!'
         }
         else{
-            window.alert(`you guessed correct! ${num}.it took ${attempts} attempts`)
+            result.textContent = `you guessed correct! ${num}.it took ${attempts} attempts`
             running = false
         }
     }
 
  }
+}
