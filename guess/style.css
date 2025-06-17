@@ -2,3 +2,46 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: hsla(180, 4%, 78%, 0.553);
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    color: hsl(193, 89%, 52%);
+}
+.guessing{
+    text-align: center;
+    margin: 5px 25px;
+    padding: 5px 25px;
+}
+label{
+    margin-top: 30px;
+    padding: 5px 10px;
+}
+#myGuess{
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(208, 100%, 97%);
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(208, 100%, 97%);
+    color: hsl(0, 0%, 0%);
+    transition: all 0.3s ease;
+}
+button:active{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(208, 100%, 97%);
+}
